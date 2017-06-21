@@ -45,7 +45,7 @@ For the training track, the generated data are dominantly skew towards the first
 
 ### Histogram of steering angles from Udacity's training data.
 
-![Steering histogram of Udacity training data][steering_histo]
+![Steering histogram of Udacity training data](steering_histogram.png)
 
 
 ### Find a Training Process
@@ -63,7 +63,7 @@ To get a basic model described above, By apply two butter filter to steering and
 
 #### Original (top) and filtered (bottom) steering values in training data
 	
-![Steering in training data and suppressed steering][filtered_steering]
+![Steering in training data and suppressed steering](filtered_steering.png)
 
 
 Next step, following methods were used to recorded higher quality data, to improve the basic model:
@@ -83,7 +83,7 @@ Next step, following methods were used to recorded higher quality data, to impro
     3. Can visually distinguish between models that are 'way off' and those are 'almost there' and thus abandon the former and keep working on the latter.
 
 	#### Prediction steering from basic model (top), fine-tuned model (middle) and the target value (bottom)
-![Basic model, Fine-tuned model, high-quality training data][prediction_comparison]
+![Basic model, Fine-tuned model, high-quality training data](prediction_comparison.png)
 
 
 
@@ -95,6 +95,3 @@ The successful implementation of the model, besides borrowing the CNN architectu
 The main drawback of this method is it only overfit the training track the model will not work in a complete different track. Other than that the fine tuning process are largely manual and empirical.
 	
 
-[steering_histo]:https://lh3.googleusercontent.com/NxbM4xrQ-icBgZCBEjlsvm3nEflOStci39IRImo51T5OUNFC4Qx46yqHRjHU0OSuf0jgViLPr5Mdrg0=w1277-h676
-[filtered_steering]:https://lh3.googleusercontent.com/uzTxBNTaf242ims_L7dtf89s5MCqExH4FY5enhjiQRX3JNr1w1oLhw-1iwPAws13D7QcAOFyIZ07O_U=w1277-h632
-[prediction_comparison]:https://lh5.googleusercontent.com/bSPE_nlAjNJIVhdbRWWAQ3RGtr6ayPzEgjwRsEERKlzrwcT72tYO6TtFffyVwBVube12FlfSaI3gfDI=w1277-h632
