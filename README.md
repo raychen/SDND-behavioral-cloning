@@ -12,7 +12,9 @@ The setup of this course project follows similar idea as this Nvidia paper: ["En
 
 ## Result
 
-Here is a [video showing the car drive autonomously](https://youtu.be/4ZLU2h13Elg) in the simulator
+Here is a [video showing the car drive autonomously](https://youtu.be/4ZLU2h13Elg) in the simulator:
+
+[![Video](drive_a_simulator_video.png)](http://www.youtube.com/watch?v=4ZLU2h13Elg) 
 
 ## Choose a Network Architecture
 
